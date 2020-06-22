@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="560db597-89af-441c-a010-4b024e9bbd4f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DepsProjectDetails">
+    <option name="cachedModuleDetails">
+      <map>
+        <entry key="$PROJECT_DIR$/deps.edn">
+          <value>
+            <ModuleDetails>
+              <option name="details" value="{:paths [&quot;src&quot;], :deps {org.clojure/clojure {:mvn/version &quot;1.10.1&quot;}, ring/ring {:mvn/version &quot;1.8.0&quot;}, hiccup/hiccup {:mvn/version &quot;1.0.5&quot;}, clj-http/clj-http {:mvn/version &quot;3.10.0&quot;}, org.clojure/core.async {:mvn/version &quot;1.1.587&quot;}, org.clojure/data.json {:mvn/version &quot;1.0.0&quot;}, compojure/compojure {:mvn/version &quot;1.6.1&quot;}}, :aliases {:deps {:extra-deps {org.clojure/tools.deps.alpha {:mvn/version &quot;0.8.599&quot;}}}, :test {:extra-paths [&quot;test&quot;]}}, :mvn/repos {&quot;central&quot; {:url &quot;https://repo1.maven.org/maven2/&quot;}, &quot;clojars&quot; {:url &quot;https://repo.clojars.org/&quot;}}, :system-aliases #{:test :deps}, :deps-tree {org.clojure/data.json {:mvn/version &quot;1.0.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/data.json/1.0.0/data.json-1.0.0.jar&quot;], :children ()}, org.clojure/clojure {:mvn/version &quot;1.10.1&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar&quot;], :children (org.clojure/core.specs.alpha org.clojure/spec.alpha)}, commons-codec/commons-codec {:mvn/version &quot;1.12&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar&quot;], :dependents [clj-http/clj-http], :children ()}, org.clojure/tools.analyzer {:mvn/version &quot;1.0.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/tools.analyzer/1.0.0/tools.analyzer-1.0.0.jar&quot;], :dependents [org.clojure/tools.analyzer.jvm], :children ()}, ring/ring-devel {:mvn/version &quot;1.8.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/ring/ring-devel/1.8.0/ring-devel-1.8.0.jar&quot;], :dependents [ring/ring], :children (ns-tracker/ns-tracker clj-stacktrace/clj-stacktrace)}, org.clojure/core.specs.alpha {:mvn/version &quot;0.2.44&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/core.specs.alpha/0.2.44/core.specs.alpha-0.2.44.jar&quot;], :dependents [org.clojure/clojure], :children ()}, org.clojure/spec.alpha {:mvn/version &quot;0.2.176&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/spec.alpha/0.2.176/spec.alpha-0.2.176.jar&quot;], :dependents [org.clojure/clojure], :children ()}, compojure/compojure {:mvn/version &quot;1.6.1&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/compojure/compojure/1.6.1/compojure-1.6.1.jar&quot;], :children (org.clojure/tools.macro clout/clout medley/medley)}, commons-fileupload/commons-fileupload {:mvn/version &quot;1.4&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar&quot;], :dependents [ring/ring-core], :children ()}, org.eclipse.jetty/jetty-http {:mvn/version &quot;9.4.22.v20191022&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/eclipse/jetty/jetty-http/9.4.22.v20191022/jetty-http-9.4.22.v20191022.jar&quot;], :dependents [org.eclipse.jetty/jetty-server], :children (org.eclipse.jetty/jetty-util)}, org.eclipse.jetty/jetty-util {:mvn/version &quot;9.4.22.v20191022&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/eclipse/jetty/jetty-util/9.4.22.v20191022/jetty-util-9.4.22.v20191022.jar&quot;], :dependents [org.eclipse.jetty/jetty-http], :children ()}, org.apache.httpcomponents/httpasyncclient {:mvn/version &quot;4.1.4&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar&quot;], :dependents [clj-http/clj-http], :children (org.apache.httpcomponents/httpcore-nio)}, org.clojure/tools.analyzer.jvm {:mvn/version &quot;1.0.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/tools.analyzer.jvm/1.0.0/tools.analyzer.jvm-1.0.0.jar&quot;], :dependents [org.clojure/core.async], :children (org.clojure/tools.analyzer org.ow2.asm/asm org.clojure/tools.reader org.clojure/core.memoize)}, org.clojure/tools.macro {:mvn/version &quot;0.1.5&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/tools.macro/0.1.5/tools.macro-0.1.5.jar&quot;], :dependents [compojure/compojure], :children ()}, slingshot/slingshot {:mvn/version &quot;0.12.2&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/slingshot/slingshot/0.12.2/slingshot-0.12.2.jar&quot;], :dependents [clj-http/clj-http], :children ()}, org.apache.httpcomponents/httpcore-nio {:mvn/version &quot;4.4.10&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.10/httpcore-nio-4.4.10.jar&quot;], :dependents [org.apache.httpcomponents/httpasyncclient], :children ()}, ring/ring-jetty-adapter {:mvn/version &quot;1.8.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/ring/ring-jetty-adapter/1.8.0/ring-jetty-adapter-1.8.0.jar&quot;], :dependents [ring/ring], :children (org.eclipse.jetty/jetty-server)}, commons-io/commons-io {:mvn/version &quot;2.6&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar&quot;], :dependents [clj-http/clj-http], :children ()}, org.clojure/tools.namespace {:mvn/version &quot;0.2.11&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar&quot;], :dependents [ns-tracker/ns-tracker], :children ()}, clj-http/clj-http {:mvn/version &quot;3.10.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/clj-http/clj-http/3.10.0/clj-http-3.10.0.jar&quot;], :children (commons-codec/commons-codec org.apache.httpcomponents/httpasyncclient slingshot/slingshot commons-io/commons-io org.apache.httpcomponents/httpcore org.apache.httpcomponents/httpclient-cache org.apache.httpcomponents/httpclient potemkin/potemkin org.apache.httpcomponents/httpmime)}, org.ow2.asm/asm {:mvn/version &quot;5.2&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/ow2/asm/asm/5.2/asm-5.2.jar&quot;], :dependents [org.clojure/tools.analyzer.jvm], :children ()}, org.apache.httpcomponents/httpcore {:mvn/version &quot;4.4.11&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar&quot;], :dependents [clj-http/clj-http], :children ()}, org.apache.httpcomponents/httpclient-cache {:mvn/version &quot;4.5.8&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/apache/httpcomponents/httpclient-cache/4.5.8/httpclient-cache-4.5.8.jar&quot;], :dependents [clj-http/clj-http], :children ()}, instaparse/instaparse {:mvn/version &quot;1.4.8&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/instaparse/instaparse/1.4.8/instaparse-1.4.8.jar&quot;], :dependents [clout/clout], :children ()}, clj-tuple/clj-tuple {:mvn/version &quot;0.2.2&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2.jar&quot;], :dependents [potemkin/potemkin], :children ()}, hiccup/hiccup {:mvn/version &quot;1.0.5&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar&quot;], :children ()}, riddley/riddley {:mvn/version &quot;0.1.12&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/riddley/riddley/0.1.12/riddley-0.1.12.jar&quot;], :dependents [potemkin/potemkin], :children ()}, org.clojure/java.classpath {:mvn/version &quot;0.3.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/java.classpath/0.3.0/java.classpath-0.3.0.jar&quot;], :dependents [ns-tracker/ns-tracker], :children ()}, ns-tracker/ns-tracker {:mvn/version &quot;0.4.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/ns-tracker/ns-tracker/0.4.0/ns-tracker-0.4.0.jar&quot;], :dependents [ring/ring-devel], :children (org.clojure/tools.namespace org.clojure/java.classpath)}, clout/clout {:mvn/version &quot;2.2.1&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/clout/clout/2.2.1/clout-2.2.1.jar&quot;], :dependents [compojure/compojure], :children (instaparse/instaparse)}, commons-logging/commons-logging {:mvn/version &quot;1.2&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar&quot;], :dependents [org.apache.httpcomponents/httpclient], :children ()}, crypto-random/crypto-random {:mvn/version &quot;1.2.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/crypto-random/crypto-random/1.2.0/crypto-random-1.2.0.jar&quot;], :dependents [ring/ring-core], :children ()}, ring/ring-codec {:mvn/version &quot;1.1.2&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/ring/ring-codec/1.1.2/ring-codec-1.1.2.jar&quot;], :dependents [ring/ring-core], :children ()}, org.apache.httpcomponents/httpclient {:mvn/version &quot;4.5.8&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar&quot;], :dependents [clj-http/clj-http], :children (commons-logging/commons-logging)}, crypto-equality/crypto-equality {:mvn/version &quot;1.0.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/crypto-equality/crypto-equality/1.0.0/crypto-equality-1.0.0.jar&quot;], :dependents [ring/ring-core], :children ()}, org.eclipse.jetty/jetty-io {:mvn/version &quot;9.4.22.v20191022&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/eclipse/jetty/jetty-io/9.4.22.v20191022/jetty-io-9.4.22.v20191022.jar&quot;], :dependents [org.eclipse.jetty/jetty-server], :children ()}, org.clojure/tools.reader {:mvn/version &quot;1.3.2&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/tools.reader/1.3.2/tools.reader-1.3.2.jar&quot;], :dependents [org.clojure/tools.analyzer.jvm], :children ()}, javax.servlet/javax.servlet-api {:mvn/version &quot;3.1.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar&quot;], :dependents [org.eclipse.jetty/jetty-server], :children ()}, potemkin/potemkin {:mvn/version &quot;0.4.5&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/potemkin/potemkin/0.4.5/potemkin-0.4.5.jar&quot;], :dependents [clj-http/clj-http], :children (clj-tuple/clj-tuple riddley/riddley)}, clj-stacktrace/clj-stacktrace {:mvn/version &quot;0.2.8&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar&quot;], :dependents [ring/ring-devel], :children ()}, ring/ring-servlet {:mvn/version &quot;1.8.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/ring/ring-servlet/1.8.0/ring-servlet-1.8.0.jar&quot;], :dependents [ring/ring], :children ()}, org.clojure/core.memoize {:mvn/version &quot;0.8.2&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/core.memoize/0.8.2/core.memoize-0.8.2.jar&quot;], :dependents [org.clojure/tools.analyzer.jvm], :children (org.clojure/core.cache)}, ring/ring {:mvn/version &quot;1.8.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/ring/ring/1.8.0/ring-1.8.0.jar&quot;], :children (ring/ring-devel ring/ring-jetty-adapter ring/ring-servlet ring/ring-core)}, org.clojure/data.priority-map {:mvn/version &quot;0.0.7&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/data.priority-map/0.0.7/data.priority-map-0.0.7.jar&quot;], :dependents [org.clojure/core.cache], :children ()}, org.eclipse.jetty/jetty-server {:mvn/version &quot;9.4.22.v20191022&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/eclipse/jetty/jetty-server/9.4.22.v20191022/jetty-server-9.4.22.v20191022.jar&quot;], :dependents [ring/ring-jetty-adapter], :children (org.eclipse.jetty/jetty-http org.eclipse.jetty/jetty-io javax.servlet/javax.servlet-api)}, org.apache.httpcomponents/httpmime {:mvn/version &quot;4.5.8&quot;, :exclusions #{org.clojure/clojure}, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/apache/httpcomponents/httpmime/4.5.8/httpmime-4.5.8.jar&quot;], :dependents [clj-http/clj-http], :children ()}, ring/ring-core {:mvn/version &quot;1.8.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/ring/ring-core/1.8.0/ring-core-1.8.0.jar&quot;], :dependents [ring/ring], :children (commons-fileupload/commons-fileupload crypto-random/crypto-random ring/ring-codec crypto-equality/crypto-equality)}, org.clojure/core.cache {:mvn/version &quot;0.8.2&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/core.cache/0.8.2/core.cache-0.8.2.jar&quot;], :dependents [org.clojure/core.memoize], :children (org.clojure/data.priority-map)}, medley/medley {:mvn/version &quot;1.0.0&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/medley/medley/1.0.0/medley-1.0.0.jar&quot;], :dependents [compojure/compojure], :children ()}, org.clojure/core.async {:mvn/version &quot;1.1.587&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/core.async/1.1.587/core.async-1.1.587.jar&quot;], :children (org.clojure/tools.analyzer.jvm)}}, :test-paths [&quot;test&quot;]}" />
+              <option name="hash" value="8a4212f7466a7c24bf0677f9553b110d" />
+            </ModuleDetails>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/awesome-for-beginners" />
+  </component>
+  <component name="ProjectId" id="1XiMglrDsMSVL0QFtm3uOGi5F0x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="cursive.last.file.extension./Users/lihongyu/Documents/Class/SPRING_2020/COMP590/Assignments/HW2/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ReplState" timestamp="1587783654802">{:repl-history {:ide [], :local [{:command &quot;(val {:key1 1, :key2 \&quot;string\&quot;})&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(vals {:key1 1, :key2 \&quot;string\&quot;})&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(vals {:key1 [12 20], :key2 \&quot;string\&quot;})&quot;, :offset 38, :ns &quot;user&quot;} {:command &quot;(.getBytes (vals {:key1 [12 20], :key2 \&quot;string\&quot;}))&quot;, :offset 50, :ns &quot;user&quot;} {:command &quot;(.getBytes (vals {:key1 \&quot;string\&quot;, :key2 [12 20]}))&quot;, :offset 50, :ns &quot;user&quot;} {:command &quot;(byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                    [32 13]))&quot;, :offset 90, :ns &quot;user&quot;} {:command &quot;(byte-array  (concat (.getBytes \&quot;tree 32\\000\&quot;) (concat (.getBytes \&quot;100644 file\\000\&quot;)\n                    [32 13])))&quot;, :offset 115, :ns &quot;user&quot;} {:command &quot;(byte-array ((.getBytes \&quot;string\&quot;) [32 13] (.getBytes \&quot;strg\&quot;) [15 13]))&quot;, :offset 70, :ns &quot;user&quot;} {:command &quot;(concat ((.getBytes \&quot;string\&quot;) [32 13] (.getBytes \&quot;strg\&quot;) [15 13]))&quot;, :offset 66, :ns &quot;user&quot;} {:command &quot;(concat ((.getBytes \&quot;string\&quot;) [32 13]))&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(.getBytes (str [32 23]))&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(def .getBytes [32 23])&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(import 'java.security.MessageDigest)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(defn sha-bytes [bytes]\n  (.digest (MessageDigest/getInstance \&quot;sha1\&quot;) bytes))&quot;, :offset 77, :ns &quot;user&quot;} {:command &quot;(defn to-hex-string\n  \&quot;Convert the given byte array into a hex string, 2 characters per byte.\&quot;\n  [bytes]\n  (letfn [(to-hex [byte]\n            (format \&quot;%02x\&quot; (bit-and 0xff byte)))]\n    (-&gt;&gt; bytes (map to-hex) (apply str))))&quot;, :offset 222, :ns &quot;user&quot;} {:command &quot;(def blob-contents \&quot;file contents\\n\&quot;)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(def blob-addr (sha-bytes (.getBytes (str \&quot;blob 14\\000\&quot; blob-contents))))&quot;, :offset 73, :ns &quot;user&quot;} {:command &quot;(to-hex-string blob-addr) ; d03e2425cf1c82616e12cb430c69aaa6cc08ff84&quot;, :offset 68, :ns &quot;user&quot;} {:command &quot;(def tree-content (str \&quot;100644 file\\\\000\&quot; blob-addr))&quot;, :offset 53, :ns &quot;user&quot;} {:command &quot;(println blob-addr)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(def tree-content (concat \&quot;100644 file\\\\000\&quot; blob-addr))&quot;, :offset 56, :ns &quot;user&quot;} {:command &quot;(identical?   (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                                  blob-addr)) (byte-array (.getBytes (str \&quot;tree 32\\000\&quot; tree-content))))&quot;, :offset 179, :ns &quot;user&quot;} {:command &quot;(identical?   (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                                  blob-addr)) (byte-array (concat (.getBytes \&quot;tree 32\\000\&quot;) (.getBytes \&quot;100644 file\\000\&quot;)\n                                                                  blob-addr)))&quot;, :offset 275, :ns &quot;user&quot;} {:command &quot;(identical?   (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                                  blob-addr)) (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                                                                  blob-addr)))&quot;, :offset 260, :ns &quot;user&quot;} {:command &quot;(=  (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                                  blob-addr))\n              (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                                  blob-addr)))&quot;, :offset 232, :ns &quot;user&quot;} {:command &quot;(println (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                                  blob-addr)))&quot;, :offset 116, :ns &quot;user&quot;} {:command &quot;(println (byte-array (concat (.getBytes \&quot;tree 32\\000\&quot;) (.getBytes \&quot;100644 file\\000\&quot;)\n                             blob-addr)))&quot;, :offset 126, :ns &quot;user&quot;} {:command &quot;(println (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                             blob-addr)))&quot;, :offset 111, :ns &quot;user&quot;} {:command &quot;(println (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;)\n                 blob-addr))&quot;, :offset 86, :ns &quot;user&quot;} {:command &quot;(println (concat (.getBytes \&quot;tree 32\\000\&quot;) (.getBytes \&quot;100644 file\\000\&quot;)\n                 blob-addr))&quot;, :offset 101, :ns &quot;user&quot;} {:command &quot;(concat (.getBytes \&quot;tree 32\\000\&quot;)  (concat (.getBytes \&quot;100644 file\\000\&quot;)\n                                           blob-add))&quot;, :offset 126, :ns &quot;user&quot;} {:command &quot;(concat (.getBytes \&quot;tree 32\\000\&quot;)  (byte-array (concat (.getBytes \&quot;100644 file\\000\&quot;)\n                                           blob-add)))&quot;, :offset 139, :ns &quot;user&quot;} {:command &quot;(def c1 (concat (.getBytes \&quot;100644 file\\000\&quot;)\n                blob-add))&quot;, :offset 72, :ns &quot;user&quot;} {:command &quot;(def c1 (concat (.getBytes \&quot;100644 file\\000\&quot;)\n                blob-addr))&quot;, :offset 73, :ns &quot;user&quot;} {:command &quot;(println concar (.getBytes \&quot;tree 32\\000\&quot;) c1)&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(println concat (.getBytes \&quot;tree 32\\000\&quot;) c1)&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(println (concat (.getBytes \&quot;tree 32\\000\&quot;) c1))&quot;, :offset 47, :ns &quot;user&quot;} {:command &quot;(-&gt;&gt; bytes (map char) (apply [12 13 14]))&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(clojure.string/join (nil (1 2 3) (2 3)))&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(clojure.string/join ((1 2 3) (2 3)))&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(clojure.string/join ((str (1 2 3)) (2 3)))&quot;, :offset 43, :ns &quot;user&quot;} {:command &quot;(clojure.string/join (2 3))&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(clojure.string/join [2 3])&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(vec (nil (2 3) (4 5)))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(vec ((2 3) (4 5)))&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(vec (4 5))&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(vec '(4 5))&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(vec '('(4 5) '(6 7)))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(clojure.string/join vec '('(4 5) '(6 7)))&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(clojure.string/join vec ('(4 5) '(6 7)))&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(clojure.string/join vec '((4 5) (6 7)))&quot;, :offset 40, :ns &quot;user&quot;} {:command &quot;(vec '(1 2 3))&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(vec ([1 3 4] [2 3 4]))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(vec '([1 3 4] [2 3 4]))&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(clojure.string/join (vec '([1 3 4] [2 3 4])))&quot;, :offset 46, :ns &quot;user&quot;} {:command &quot;(clojure.string/join (clojure.strinig/join (vec '(4 5 6))) (clojure.strinig/join (vec '(1 2 3))))&quot;, :offset 97, :ns &quot;user&quot;} {:command &quot;(clojure.string/join (\&quot;123\&quot; \&quot;345\&quot;))&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(.indexOf \&quot;1234567 34\&quot; \&quot;34\&quot;)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(.indexOf \&quot;1234567 34\&quot; \&quot;48\&quot;)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(.indexOf \&quot;1234567 34\&quot; \&quot;46\&quot;)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(.indexOf \&quot;1234567 34\&quot; \&quot;45\&quot;)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(subs \&quot;1234567\&quot; 3)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(clojure -m jst-explore-test)&quot;, :offset 29, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.Unnamed">
+    <configuration name="Unnamed" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="Idiot" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="idiot" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="Idiot" />
+      <setting name="path" value="" />
+      <setting name="namespace" value="idiot" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Clojure Application.idiot" />
+      <item itemvalue="Clojure REPL.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure Application.idiot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="560db597-89af-441c-a010-4b024e9bbd4f" name="Default Changelist" comment="" />
+      <created>1581524576876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581524576876</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584139072174">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1584139072174" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584993118623">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584993118623" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584993118621">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584993118621" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584993118620">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584993118619" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584993118622">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584993118622" />
+    <state x="308" y="200" key="IDE.errors.dialog" timestamp="1584215875330">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="200" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1584215875330" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1587702705189">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587702705189" />
+    <state x="390" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1587433651760">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="390" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1585965375734" />
+    <state x="390" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.798@0.23.1440.798" timestamp="1585096883176" />
+    <state x="390" y="253" key="com.intellij.ide.util.TipDialog/0.23.1440.804@0.23.1440.804" timestamp="1587433651760" />
+    <state x="390" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1583805743055" />
+    <state x="390" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1581648893642" />
+    <state x="390" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1581953395222" />
+    <state x="312" y="175" width="816" height="550" key="find.popup" timestamp="1584835362406">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="175" width="816" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1584835362406" />
+    <state width="600" height="470" key="javadoc.popup" timestamp="1584721148005">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="470" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1584721148005" />
+    <state width="600" height="424" key="javadoc.popup/0.23.1440.812@0.23.1440.812" timestamp="1581707228816" />
+    <state x="338" y="196" width="764" height="676" key="search.everywhere.popup" timestamp="1585349112206">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="338" y="196" width="764" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585349112206" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/write_wtree.clj</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

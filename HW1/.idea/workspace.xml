@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0caa1e23-5d5e-4525-8ed4-d7764670f9fd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DepsProjectDetails">
+    <option name="cachedModuleDetails">
+      <map>
+        <entry key="$PROJECT_DIR$/deps.edn">
+          <value>
+            <ModuleDetails>
+              <option name="details" value="{:paths [&quot;src&quot;], :deps {org.clojure/clojure {:mvn/version &quot;1.10.1&quot;}}, :aliases {:deps {:extra-deps {org.clojure/tools.deps.alpha {:mvn/version &quot;0.8.599&quot;}}}, :test {:extra-paths [&quot;test&quot;]}}, :mvn/repos {&quot;central&quot; {:url &quot;https://repo1.maven.org/maven2/&quot;}, &quot;clojars&quot; {:url &quot;https://repo.clojars.org/&quot;}}, :system-aliases #{:test :deps}, :deps-tree {org.clojure/clojure {:mvn/version &quot;1.10.1&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar&quot;], :children (org.clojure/spec.alpha org.clojure/core.specs.alpha)}, org.clojure/spec.alpha {:mvn/version &quot;0.2.176&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/spec.alpha/0.2.176/spec.alpha-0.2.176.jar&quot;], :dependents [org.clojure/clojure], :children ()}, org.clojure/core.specs.alpha {:mvn/version &quot;0.2.44&quot;, :deps/manifest :mvn, :paths [&quot;/Users/lihongyu/.m2/repository/org/clojure/core.specs.alpha/0.2.44/core.specs.alpha-0.2.44.jar&quot;], :dependents [org.clojure/clojure], :children ()}}, :test-paths [&quot;test&quot;]}" />
+              <option name="hash" value="5db72e1b1ca9969ff94a14f739fe59f5" />
+            </ModuleDetails>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WlO8AJziR94iJNxckFybbrlhkm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Clojure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ReplState" timestamp="1588705426995">{:repl-history {:ide [], :local [{:command &quot;(let [a (inc 2)])&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(let [a (inc 2)]\n  (println a))&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(let \n  (def a 2)\n  [a (inc 2)]\n  (println a))&quot;, :offset 46, :ns &quot;user&quot;} {:command &quot;(let\n  [a 2]\n  [a (inc 2)]\n  (println a))&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(let\n  [a 2]\n  (println a))&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(let\n  [a 2]\n  [a (inc 1)]\n  (println a))&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(let\n  [a (inc 1)]\n  (println a))&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(def i 1)\n(while (&lt; i 5)\n  (println i)\n  (def i (+ i 1))\n  )&quot;, :offset 60, :ns &quot;user&quot;} {:command &quot;((count \&quot;III\&quot;) 0)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(count \&quot;III\&quot;)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(if ((= (count \&quot;III\&quot;) 0) \&quot;p\&quot;)\n  :else \&quot;zero\&quot;)&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(= (count \&quot;III\&quot;) 0)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(if (= (count \&quot;III\&quot;) 0) \&quot;negative\&quot;\n  :else \&quot;zero\&quot;)&quot;, :offset 50, :ns &quot;user&quot;} {:command &quot;(cond (= (count \&quot;III\&quot;) 0) \&quot;negative\&quot;\n  :else \&quot;zero\&quot;)&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(cond (= (count \&quot;III\&quot;) 3) (println 0)\n  :else \&quot;zero\&quot;)&quot;, :offset 53, :ns &quot;user&quot;} {:command &quot;(cond (= (count \&quot;III\&quot;) 3) (println 0)\n  :else (println 5))&quot;, :offset 58, :ns &quot;user&quot;} {:command &quot;(cond (= (count \&quot;III\&quot;) 30) (println 0)\n  :else (println 5))&quot;, :offset 59, :ns &quot;user&quot;} {:command &quot;#{:name \&quot;Josie\&quot;}&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(type (#{:name \&quot;Josie\&quot;}))&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(type \&quot;string\&quot;)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type #{:name \&quot;Josie\&quot;})&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(type #\&quot;a string\&quot;)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(type 'a string')&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(type %w{a string})\n\n\n\n&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(type '(1 2 3))\n\n\n\n&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type (list 1 2 3))\n\n\n\n&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(type #_comment)\n\n\n\n&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(#(* %1 %1))\n\n\n\n&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(#(* %1 %1) 3)\n\n\n\n&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(#(* % %) 3)\n\n\n\n&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(#(* % %) 3)(fn [x] (* x x))\n\n\n\n&quot;, :offset 0} {:command &quot;(fn [x] (* x x) 3)\n\n\n\n&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(defn f #(* (- %1 %2) (+ %1 %2)))&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(defn f [a b] (* (- a b) (+ a b)))&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(fn f [a b] (* (- a b) (+ a b)))&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(defn- f [a b] (* (- a b) (+ a b)))&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(define f [a b] (* (- a b) (+ a b)))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;[{e1} {e2} {e3}]&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;#{a1 b2 c3}&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;[arg1 arg2 &amp; other-args]&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;[1 2 &amp; 3]&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;#{1 2 3}&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;{key [1 2]}&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(type {key [1 2]})&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(let [(mapv inc numbers)] where numbers = (range 10))&quot;, :offset 53, :ns &quot;user&quot;} {:command &quot;(let [numbers (range 10)] (mapv inc numbers))&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(let [(numbers (range 10))] (mapv inc numbers))&quot;, :offset 47, :ns &quot;user&quot;} {:command &quot;(Integer/parseInt \&quot;2\&quot;)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(parseInt 2)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(import ‘java.util.zip.DeflaterOutputStream)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(:import [java.util.zip :refer [DeflaterOutputStream]])&quot;, :offset 55, :ns &quot;user&quot;} {:command &quot;(keyword)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(type keyword)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(type :keyword)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type \&quot;keyword\&quot;)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(type 'keyword)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type 'keyword')&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(type *keyword*)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(type ?keyword)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type keyword?)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type {1 2 3})&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(type '(1 2 3))\n&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type (list 1 2 3))\n&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(type #\&quot;a string\&quot;)\n&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(type {:items [1 2 3]})\n&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(type {:foo :bar})\n&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(type #{:name \&quot;Josie\&quot;})\n&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(type [:key \&quot;value\&quot;])\n&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(type [{e1} {e2} {e3}])\n&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(type [{1} {2} {3}])\n&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(type #{a1 b2 c3})\n&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(type #{1 2 3})\n&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;{key [item1 item2]}&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(type {key [item1 item2]})\n&quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(type {key [1 2]})\n&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;{key [1 2]}\n&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(def tree-counts\n  {:oak 7\n   :gum 21\n   :hickory 16\n   :magnolia 1})&quot;, :offset 69, :ns &quot;user&quot;} {:command &quot;(update-in tree-counts [:gum] 20)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(assoc tree-counts :gum dec)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(update-in tree-counts [:gum] dec)&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(assoc-in tree-counts [:gum] 20)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(update tree-counts :gum 20)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(assoc-in tree-counts [:gum] dec)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(update tree-counts :gum dec)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(assoc tree-counts :gum 20)&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(:require [hiccup.core :refer [html]])&quot;, :offset 38, :ns &quot;user&quot;} {:command &quot;(:import java.util.zip.DeflaterOutputStream)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(#(* %1 %1) 3)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(#(* %2 %2) 3)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(#(* %1 %2) 3)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(#(* %1 %) 3)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(#(* %1 %2) 3 4)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(define f #(* (- %1 %2) (+ %1 %2)))&quot;, :offset 35, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="RunManager">
+    <configuration name="REPL" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="HW1" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="DEPS" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0caa1e23-5d5e-4525-8ed4-d7764670f9fd" name="Default Changelist" comment="" />
+      <created>1579720552618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579720552618</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="176" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579720619283">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="176" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.804@0.23.1440.804" timestamp="1579720619283" />
+    <state x="399" y="233" key="com.intellij.ide.util.TipDialog" timestamp="1580514363468">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="399" y="233" key="com.intellij.ide.util.TipDialog/0.23.1440.804@0.23.1440.804" timestamp="1580514363468" />
+    <state x="399" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1580400257907" />
+    <state x="399" y="236" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1580416337752" />
+    <state x="338" y="155" width="764" height="676" key="search.everywhere.popup" timestamp="1580408665188">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="338" y="155" width="764" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1580408665188" />
+  </component>
+</project>
